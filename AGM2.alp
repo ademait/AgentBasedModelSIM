@@ -59,7 +59,7 @@
 			<EnvironmentProperties>
 					<EnableSteps>true</EnableSteps>
 					<StepDurationCode Class="CodeUnitValue">
-						<Code><![CDATA[18]]></Code>
+						<Code><![CDATA[11]]></Code>
 						<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
 					</StepDurationCode>
 					<SpaceType>CONTINUOUS</SpaceType>
@@ -702,7 +702,9 @@
 						<Point><X>0</X><Y>0</Y></Point>
 						<Point><X>0</X><Y>580</Y></Point>
 						<Point><X>980</X><Y>580</Y></Point>
-						<Point><X>970</X><Y>560</Y></Point>
+						<Point><X>980</X><Y>30</Y></Point>
+						<Point><X>950</X><Y>30</Y></Point>
+						<Point><X>952</X><Y>560</Y></Point>
 						<Point><X>30</X><Y>560</Y></Point>
 						<Point><X>30</X><Y>30</Y></Point>
 						<Point><X>980</X><Y>20</Y></Point>
@@ -1873,6 +1875,7 @@ if (oldTarget == target)
 		
 		Missile m = main.add_missiles(this,z);
 		missils.add(m);
+		break;
 	}
 }]]></AfterStepCode>
 				<PhysicalLength Class="CodeUnitValue">
