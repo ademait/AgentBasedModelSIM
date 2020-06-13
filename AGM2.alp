@@ -59,7 +59,7 @@
 			<EnvironmentProperties>
 					<EnableSteps>true</EnableSteps>
 					<StepDurationCode Class="CodeUnitValue">
-						<Code><![CDATA[10]]></Code>
+						<Code><![CDATA[20]]></Code>
 						<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
 					</StepDurationCode>
 					<SpaceType>CONTINUOUS</SpaceType>
@@ -134,7 +134,7 @@
 							<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
 						</OccurrenceTime>
 						<RecurrenceCode Class="CodeUnitValue">
-							<Code><![CDATA[uniform(5,12);]]></Code>
+							<Code><![CDATA[uniform(1,5);]]></Code>
 							<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
 						</RecurrenceCode>
 						<Condition><![CDATA[false]]></Condition>
